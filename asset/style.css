@@ -1,10 +1,46 @@
-.product{
-    position: relative;
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
 }
 
-img.style{
-    width: 500px;
-    height: 700px;
+body{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.product{
+    position: relative;
+    display: inline-block;
+    border: 2px solid red;
+    color: honeydew;
+}
+
+img{
+    width: 420px;
+    height: 600px;
     display: inline-block;
 }
+
+.discount{
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.red{
+    background-color: red;
+}
+
+.Sostenibilità{
+    background-color: green;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    padding: 5px;
+}
+
+
 
