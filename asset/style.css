@@ -88,4 +88,5 @@ color: black;
 
 .product:hover .second-image{
     display: block;
+    cursor:pointer;
 }
