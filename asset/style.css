@@ -1,0 +1,10 @@
+.product{
+    position: relative;
+}
+
+img.style{
+    width: 500px;
+    height: 700px;
+    display: inline-block;
+}
+
