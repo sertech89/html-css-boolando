@@ -12,7 +12,6 @@ body{
 .product{
     position: relative;
     display: inline-block;
-    border: 2px solid red;
     color: honeydew;
 }
 
@@ -23,24 +22,54 @@ img{
 }
 
 .discount{
-    position: absolute;
-    bottom: 20px;
-    left: 5px;
     padding: 5px;
     display: inline-block;
 }
 
 .red{
-    background-color: red;
+    background-color: rgba(235,0,55,255);
 }
 
 .Sostenibilità{
-    background-color: green;
-    position: absolute;
-    bottom: 20px;
-    left: 60px;
+    background-color: rgba(0,135,90,255);
     padding: 5px;
+    display: inline-block;
 }
+
+.opzioni{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+.new{
+    color: rgba(235,0,55,255);
+}
+
+.old{
+    text-decoration: line-through;
+}
+
+.brand{
+    color: goldenrod;
+}
+
+.heart-conteiner{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.heart{
+    color: black;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
 
 
 
