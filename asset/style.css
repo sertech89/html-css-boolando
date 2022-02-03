@@ -37,7 +37,6 @@ img{
 }
 
 .opzioni{
-    position: absolute;
     bottom: 15px;
     left: 10px;
 }
@@ -65,11 +64,15 @@ img{
 
 .heart{
     color: black;
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 12px;
+    margin-left: 18px;
 }
 
+.scheda-prodotto{
+color: black;
+}
 
-
-
-
+.opzioni-2{
+    position: absolute;
+    bottom: 80px;
+}
