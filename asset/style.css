@@ -76,3 +76,16 @@ color: black;
     position: absolute;
     bottom: 80px;
 }
+
+
+.second-image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.product:hover .second-image{
+    display: block;
+}
